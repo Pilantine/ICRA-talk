@@ -419,15 +419,6 @@ Let $n \in \mathbb{N}^*$ and $Q$ be an $A_n$ type quiver. Then $\mathcal{E}_{\di
 </div>
 
 ---
-layout: section
-class: text-center
----
-
-# IV. The $\mathrm{GS}_\mathcal{E}$ Operator & Properties
-
-First Main Theorem
-
----
 
 # CJR via $\mathcal{E}_\diamond$
 
@@ -452,6 +443,15 @@ A subcategory $\mathscr{C} \subseteq \mathscr{A}$ is **$\mathcal{E}$-adapted** i
 ::
 
 </v-clicks>
+
+---
+layout: section
+class: text-center
+---
+
+# III. The $\mathrm{GS}_\mathcal{E}$ Operator & Properties
+
+First Main Theorem
 
 ---
 clicks: 16
@@ -694,7 +694,7 @@ layout: section
 class: text-center
 ---
 
-# V. Relative Mutations & Tilting Equivalence
+# IV. Relative Mutations & Tilting Equivalence
 
 Second Main Theorem
 
