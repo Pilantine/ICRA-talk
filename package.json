@@ -1,0 +1,15 @@
+{
+  "name": "phd-defense",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@drgrice1/tikzjax": "^1.0.0-beta24",
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}

@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/3487442363_1216203914_223132457.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_891910075_2900458459.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_1722158137_3886414087.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_739206735_3949431611.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_3329295920_3299229903.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_1256376901_3101654418.webm'
+file 'file:D:/Claude Agent Inflexion/Agent_Creator_Claude_Project/PROJECTS/PhD_Defense/02_PRESENTATION/manim/media/videos/ediam_thinking/1080p60/partial_movie_files/EDiamThinking/267308834_2164560990_3134013230.webm'

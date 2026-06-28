@@ -1,0 +1,202 @@
+/* Dark Academic Theme — PhD Defense */
+
+:root {
+  --bg: #0f111a;
+  --bg-card: #1a1d2e;
+  --text: #e2e8f0;
+  --gold: #e2b96f;
+  --blue: #63b3ed;
+  --purple: #b794f4;
+  --green: #68d391;
+  --muted: #718096;
+  --border: #2d3748;
+}
+
+.slidev-layout {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'PT Serif', 'Georgia', serif;
+}
+
+h1 {
+  color: var(--gold) !important;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.7rem !important;
+  letter-spacing: 0.02em;
+}
+
+.slidev-layout:not(.section) h1 + p {
+  opacity: 1 !important;
+  margin-top: 0 !important;
+}
+
+h2 {
+  color: var(--blue) !important;
+  margin-bottom: 0.8rem;
+}
+
+strong {
+  color: var(--gold);
+}
+
+em {
+  color: var(--blue);
+  font-style: italic;
+}
+
+/* ─── Theorem / Definition boxes ─── */
+
+/* Remove paragraph margins inside all boxes so multi-line divs don't add extra space */
+.definition > p, .theorem > p, .proposition > p,
+.remark > p, .example > p, .axiom > p,
+.corollary > p, .callout-question > p,
+.mt-3 > p, .mt-2 > p, .mt-4 > p, .ml-6 > p,
+.mt-3.ml-6 > p, .mt-4.opacity-80 > p {
+  margin: 0;
+}
+
+.definition {
+  border-left: 3px solid var(--gold);
+  background: var(--bg-card);
+  padding: 0.55rem 1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.4rem 0;
+  font-size: 0.93rem;
+}
+
+.theorem {
+  border-left: 3px solid var(--blue);
+  background: var(--bg-card);
+  padding: 0.55rem 1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.4rem 0;
+  font-size: 0.93rem;
+}
+
+.proposition {
+  border-left: 3px solid var(--purple);
+  background: var(--bg-card);
+  padding: 0.55rem 1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.4rem 0;
+  font-size: 0.93rem;
+}
+
+.remark {
+  border-left: 3px solid var(--green);
+  background: var(--bg-card);
+  padding: 0.55rem 1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.4rem 0;
+  font-size: 0.88rem;
+}
+
+.example {
+  border-left: 3px solid var(--muted);
+  background: var(--bg-card);
+  padding: 0.45rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+  margin: 0.3rem 0;
+  font-size: 0.88rem;
+}
+
+.axiom {
+  border-left: 3px solid var(--blue);
+  background: rgba(99, 179, 237, 0.06);
+  padding: 0.35rem 0.85rem;
+  border-radius: 0 6px 6px 0;
+  margin: 0.28rem 0;
+  font-size: 0.88rem;
+}
+
+.corollary {
+  border-left: 3px solid var(--green);
+  background: var(--bg-card);
+  padding: 0.45rem 0.9rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+.callout-question {
+  border: 1px solid var(--gold);
+  background: rgba(226, 185, 111, 0.07);
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  color: var(--gold);
+  font-size: 0.9rem;
+}
+
+/* ─── Section layout ─── */
+
+.slidev-layout.section {
+  background: linear-gradient(135deg, #0f111a 0%, #1a1d2e 100%) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 4rem;
+}
+
+.slidev-layout.section h1 {
+  font-size: 2.8rem !important;
+  border: none !important;
+  color: var(--text) !important;
+  margin-bottom: 0.5rem;
+}
+
+.slidev-layout.section p {
+  color: var(--gold);
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 1 !important;
+}
+
+/* ─── Cover layout ─── */
+
+.slidev-layout.cover {
+  background: radial-gradient(ellipse at 30% 50%, #1a1d2e 0%, #0f111a 70%) !important;
+}
+
+/* ─── Math display ─── */
+
+.katex-display {
+  margin: 0.35em 0 !important;
+}
+
+/* ─── List items ─── */
+
+li {
+  margin: 0.25rem 0;
+  line-height: 1.5;
+}
+
+/* ─── Slide overflow guard ─── */
+
+.slidev-layout {
+  overflow: hidden;
+}
+
+.slidev-layout p {
+  margin: 0.25rem 0;
+}
+
+/* ─── Transitions ─── */
+
+.slidev-vclick-target {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(4px);
+}
+
+/* ─── Footer ─── */
+
+.slidev-layout .footer {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
