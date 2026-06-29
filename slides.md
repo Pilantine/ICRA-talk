@@ -682,14 +682,6 @@ $$T \sim_{\mathcal{E}} T' \quad \Longleftrightarrow \quad T \approx_{\mathcal{E}
 
 ---
 
-# Example: $Q = 1 \to 2 \leftarrow 3 \to 4$ with $\mathcal{E} = \mathcal{E}_\diamond$
-
-<div style="position:absolute; top:6.5rem; left:2rem; right:2rem; bottom:2rem;">
-  <iframe src="https://ar-quiver-simulator.vercel.app" style="width:154%; height:154%; border:none; transform:scale(0.65); transform-origin:top left;" />
-</div>
-
----
-
 # Equivalence of Tiltings
 
 <div style="opacity: 1 !important;">
