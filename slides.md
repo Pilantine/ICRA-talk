@@ -158,82 +158,6 @@ $$\operatorname{GenJF}(E) \;=\; \max_{N \,\in\, \operatorname{NEnd}(E)} \operato
 
 ---
 
-# Jordan Recoverability
-
-<div class="definition mt-2">
-
-**Definition \[GPT23\]**
-
-Let $\mathscr{C} \subseteq \operatorname{rep}(Q)$ be a full subcategory. We say that $\mathscr{C}$ is **Jordan recoverable (JR)** if
-
-$$E \simeq F \;\iff\; \operatorname{GenJF}(E) = \operatorname{GenJF}(F) \qquad \text{for all } E, F \in \mathscr{C}.$$
-
-</div>
-
-<div class="remark mt-5" v-click>
-
-**Remark**
-
-The generic Jordan form $\operatorname{GenJF}$ is a **complete invariant** on $\mathscr{C}$.
-
-</div>
-
----
-
-# Canonical Jordan Recoverability (CJR)
-
-<div class="definition">
-
-**Definition \[GPT23\]**
-
-Let $\mathscr{C} \subseteq \operatorname{rep}(Q)$. We say $\mathscr{C}$ is **canonically Jordan recoverable (CJR)** if, for every $X \in \mathscr{C}$, there exists a dense open set (Zariski) $\Omega \subseteq \operatorname{rep}\bigl(Q,\operatorname{GenJF}(X)\bigr)$ such that for all $Y \in \Omega$, $Y \simeq X$.
-
-</div>
-
-<div class="definition mt-5" v-click>
-
-**Maximal CJR subcategory**
-
-A CJR subcategory $\mathscr{C}$ is **maximal** if it is not properly contained in any larger CJR subcategory of $\operatorname{rep}(Q)$:
-
-$$\forall\, \mathscr{D} \supsetneq \mathscr{C}, \quad \mathscr{D} \text{ is not CJR.}$$
-
-</div>
-
----
-layout: two-cols
----
-
-# Example on $A_2$: JR but not CJR
-
-Assume $Q : 1 \to 2$ and let $\mathscr{C} = \operatorname{add}(S_1, S_2)$.
-
-<v-clicks>
-
-Every $E \in \mathscr{C}$ has the form $\;E = K^a \xrightarrow{\;0\;} K^b$.
-
-**Generic Jordan form:** $\;\operatorname{GenJF}(E) = \bigl((a),\,(b)\bigr).$
-
-Hence $\mathscr{C}$ is **JR**.
-
-</v-clicks>
-
-::right::
-
-<div class="mt-16" v-click>
-
-**But $\mathscr{C}$ is not CJR.**
-
-Consider $S_1 \oplus S_2 \cong K \xrightarrow{0} K$. Any dense open $U \subseteq \operatorname{rep}(Q,\,(1,1))$ contains $P_1 = K \xrightarrow{\lambda} K$ with $\lambda \neq 0$.
-
-$$\operatorname{GenJF}(S_1 \oplus S_2) = \bigl((1),(1)\bigr) = \operatorname{GenJF}(P_1)$$
-
-but $S_1 \oplus S_2 \not\simeq P_1$.
-
-</div>
-
----
-
 # Maximal CJR Subcategories in Type $A_n$
 
 Let $Q$ be a quiver of type $A_n$.
@@ -325,36 +249,6 @@ $\mathcal{E}$ is closed under pullbacks.
 
   </div>
 </div>
-
----
-
-# Exact Categories
-
-<div class="definition">
-
-**Definition**
-
-Let $\mathcal{E}$ be an exact structure on $\mathscr{A}$. The pair $(\mathscr{A},\,\mathcal{E})$ is called an **exact category**.
-
-</div>
-
-<div class="mt-5" v-click><strong>Examples of Exact Structures</strong></div>
-
-<v-clicks>
-
-<div class="example">
-
-$\mathcal{E}_{\max}$ &nbsp;— the <strong>maximal exact structure</strong>, containing all short exact sequences.
-
-</div>
-
-<div class="example">
-
-$\mathcal{E}_{\min}$ &nbsp;— the <strong>minimal exact structure</strong>, containing only the split short exact sequences.
-
-</div>
-
-</v-clicks>
 
 ---
 
